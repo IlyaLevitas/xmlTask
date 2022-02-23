@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.levitas.com/gems gems.xsd">
+    <Corundum id="№1">
+        <name>Рубин</name>
+        <preciousness>true</preciousness>
+        <origin>Таиланд</origin>
+        <visualParameters>
+            <color>Крвсный</color>
+            <transparency>80%</transparency>
+            <cutting>Круглая огранка</cutting>
+        </visualParameters>
+        <value>2</value>
+    </Corundum>
+    <Corundum id="№2">
+        <name>Рубин</name>
+        <preciousness>true</preciousness>
+        <origin>Мьянма</origin>
+        <visualParameters>
+            <color>Крвсный</color>
+            <transparency>80%</transparency>
+            <cutting>Багет</cutting>
+        </visualParameters>
+        <value>1.2</value>
+    </Corundum>
+    <Corundum id="№3">
+        <name>Сапфир</name>
+        <preciousness>true</preciousness>
+        <origin>США</origin>
+        <visualParameters>
+            <color>Синний</color>
+            <transparency>60%</transparency>
+            <cutting>Маркиз</cutting>
+        </visualParameters>
+        <value>2.2</value>
+    </Corundum>
+    <Beryl id="№4">
+        <name>Изумруд</name>
+        <preciousness>true</preciousness>
+        <origin>Тунха</origin>
+        <visualParameters>
+            <color>Зелёный</color>
+            <transparency>90%</transparency>
+            <cutting>Изумруд</cutting>
+        </visualParameters>
+        <value>3</value>
+    </Beryl>
+    <Beryl id="№5">
+        <name>Аквамарин</name>
+        <preciousness>true</preciousness>
+        <origin>Мадагаскар</origin>
+        <visualParameters>
+            <color>Светло-голубой</color>
+            <transparency>80%</transparency>
+            <cutting>Овал</cutting>
+        </visualParameters>
+        <value>2</value>
+    </Beryl>
+    <Beryl id="№6">
+        <name>Изумруд</name>
+        <preciousness>true</preciousness>
+        <origin>Тунха</origin>
+        <visualParameters>
+            <color>Зелёный</color>
+            <transparency>50%</transparency>
+            <cutting>Кабошон</cutting>
+        </visualParameters>
+        <value>5</value>
+    </Beryl>
+    <Quartz id="№7">
+        <name>Аметист</name>
+        <preciousness>true</preciousness>
+        <origin>Шри-Ланка</origin>
+        <visualParameters>
+            <color>Фиолетовый</color>
+            <transparency>85%</transparency>
+            <cutting>Кабошон</cutting>
+        </visualParameters>
+        <value>0.5</value>
+    </Quartz>
+    <Quartz id="№8">
+        <name>Аметист</name>
+        <preciousness>true</preciousness>
+        <origin>Бразилия</origin>
+        <visualParameters>
+            <color>Фиолетовый</color>
+            <transparency>75%</transparency>
+            <cutting>Сердце</cutting>
+        </visualParameters>
+        <value>2.9</value>
+    </Quartz>
+    <Quartz id="№9">
+        <name>Цитрин</name>
+        <preciousness>true</preciousness>
+        <origin>Бразилия</origin>
+        <visualParameters>
+            <color>Желтый</color>
+            <transparency>75%</transparency>
+            <cutting>Овал</cutting>
+        </visualParameters>
+        <value>1.5</value>
+    </Quartz>
+    <Quartz id="№10">
+        <name>Аметрин</name>
+        <preciousness>true</preciousness>
+        <origin>Боливия</origin>
+        <visualParameters>
+            <color>Сиреневый</color>
+            <transparency>30%</transparency>
+            <cutting>Овал</cutting>
+        </visualParameters>
+        <value>6.1</value>
+    </Quartz>
+    <Quartz id="№11">
+        <name>Аметрин</name>
+        <preciousness>true</preciousness>
+        <origin>Боливия</origin>
+        <visualParameters>
+            <color>Сиреневый</color>
+            <transparency>35%</transparency>
+            <cutting>Триллион</cutting>
+        </visualParameters>
+        <value>4.3</value>
+    </Quartz>
+    <Quartz id="№12">
+        <name>Розовый кварц</name>
+        <preciousness>false</preciousness>
+        <origin>США</origin>
+        <visualParameters>
+            <color>Розовый</color>
+            <transparency>90%</transparency>
+            <cutting>Сердце</cutting>
+        </visualParameters>
+        <value>5.7</value>
+    </Quartz>
+    <Quartz id="№13">
+        <name>Розовый кварц</name>
+        <preciousness>false</preciousness>
+        <origin>США</origin>
+        <visualParameters>
+            <color>Розовый</color>
+            <transparency>20%</transparency>
+            <cutting>Сердце</cutting>
+        </visualParameters>
+        <value>3</value>
+    </Quartz>
+    <Quartz id="№14">
+        <name>Раухтопаз</name>
+        <preciousness>false</preciousness>
+        <origin>Мьянма</origin>
+        <visualParameters>
+            <color>Черный</color>
+            <transparency>90%</transparency>
+            <cutting>Круглая огранка</cutting>
+        </visualParameters>
+        <value>8.4</value>
+    </Quartz>
+    <Garnet id="№15">
+        <name>Гелиодор</name>
+        <preciousness>false</preciousness>
+        <origin>Аргентина</origin>
+        <visualParameters>
+            <color>Желтый</color>
+            <transparency>90%</transparency>
+            <cutting>Принцесса</cutting>
+        </visualParameters>
+        <value>0.3</value>
+    </Garnet>
+    <Garnet id="№16">
+        <name>Демантоид</name>
+        <preciousness>true</preciousness>
+        <origin>Россия</origin>
+        <visualParameters>
+            <color>зелёный</color>
+            <transparency>100%</transparency>
+            <cutting>Квадрат</cutting>
+        </visualParameters>
+        <value>1.9</value>
+    </Garnet>
+</gems>
+

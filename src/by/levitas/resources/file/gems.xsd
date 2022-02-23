@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.levitas.com/gems"
+        xmlns:tns="http://www.levitas.com/gems"
+        elementFormDefault="qualified">
+
+    <element name="gems">
+        <complexType>
+            <sequence>
+                <element ref="tns:gem" minOccurs="16" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    
+    <element name="gem" abstract="true"/>
+    <element name="Corundum" substitutionGroup="tns:gem"/>
+    <element name="Beryl" substitutionGroup="tns:gem"/>
+    <element name="Quartz" substitutionGroup="tns:gem"/>
+    <element name="Garnet" substitutionGroup="tns:gem"/>
+
+   <ComplexType name="Corundum">
+       <sequence>
+           <element name="name" type="tns:Name"/>
+           <element name="preciousness" type="boolean"/>
+           <element name="origin" type="string"/>
+           <element name="visualParameters" type="tns:VisualParameters"/>
+           <element name="value" type="tns:Value"/>
+       </sequence>
+       <attribute name="id" use="required" type="tns:GemId"/>
+       <attribute name="note" use="optional" type="string" default="additional info."/>
+   </ComplexType>
+
+    <ComplexType name="Beryl">
+        <sequence>
+            <element name="name" type="tns:Name"/>
+            <element name="preciousness" type="boolean"/>
+            <element name="origin" type="string"/>
+            <element name="visualParameters" type="tns:VisualParameters"/>
+            <element name="value" type="tns:Value"/>
+        </sequence>
+        <attribute name="id" use="required" type="tns:GemId"/>
+        <attribute name="note" use="optional" type="string" default="additional info."/>
+    </ComplexType>
+
+    <ComplexType name="Quartz">
+        <sequence>
+            <element name="name" type="tns:Name"/>
+            <element name="preciousness" type="boolean"/>
+            <element name="origin" type="string"/>
+            <element name="visualParameters" type="tns:VisualParameters"/>
+            <element name="value" type="tns:Value"/>
+        </sequence>
+        <attribute name="id" use="required" type="tns:GemId"/>
+        <attribute name="note" use="optional" type="string" default="additional info."/>
+    </ComplexType>
+
+    <ComplexType name="Garnet">
+        <sequence>
+            <element name="name" type="tns:Name"/>
+            <element name="preciousness" type="boolean"/>
+            <element name="origin" type="string"/>
+            <element name="visualParameters" type="tns:VisualParameters"/>
+            <element name="value" type="tns:Value"/>
+        </sequence>
+        <attribute name="id" use="required" type="tns:GemId"/>
+        <attribute name="note" use="optional" type="string" default="additional info."/>
+    </ComplexType>
+
+    <simpleType name="Name">
+        <restriction base="string">
+            <minLength value="4"/>
+            <maxLength value="15"/>
+        </restriction>
+    </simpleType>
+    <simpleType name="Value">
+        <restriction base="decimal">
+            <minInclusive value="0.1"/>
+            <maxInclusive value="100"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Cutting">
+        <restriction base="string">
+            <enumeration value="Круглая огранка"/>
+            <enumeration value="Овал"/>
+            <enumeration value="Багет"/>
+            <enumeration value="Изумруд"/>
+            <enumeration value="Кабошон"/>
+            <enumeration value="Груша"/>
+            <enumeration value="Квадрат"/>
+            <enumeration value="Принцесса"/>
+            <enumeration value="Маркиз"/>
+            <enumeration value="Триллион"/>
+            <enumeration value="Сердце"/>
+        </restriction>
+    </simpleType>
+    <simpleType name="Transparency">
+        <restriction base="integer">
+            <minInclusive value="0"/>
+            <maxInclusive value="100"/>
+            <pattern value="\d*%"/>
+        </restriction>
+    </simpleType>
+    <complexType name="VisualParameters">
+        <sequence>
+            <element name="color" type="string"/>
+            <element name="transparency" type="tns:Transparency"/>
+            <element name="cutting" type="tns:Cutting"/>
+        </sequence>
+    </complexType>
+
+    <simpleType name="GemId">
+        <restriction base="ID">
+            <pattern value="№\d{1,5}"/>
+        </restriction>
+    </simpleType>
+
+</schema>
+
+
